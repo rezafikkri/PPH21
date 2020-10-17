@@ -1,0 +1,28 @@
+{
+    "type": "library",
+    "license": "MIT",
+    "name": "reza/pph21",
+    "authors": [
+        {
+            "name": "Reza Sariful Fikri",
+            "email": "fikkri.reza@gmail.com",
+            "homepage": "https://rezafikkri.github.io"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "optimize-autoloader": true,
+    },
+    "autoload": {
+        "psr-4": {
+            "PPH21\\": "src/"
+        }
+    }
+}
